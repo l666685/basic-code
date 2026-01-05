@@ -3,6 +3,7 @@ package cn.itcast.day05.demo03;
 import java.util.Arrays;
 
 import static cn.itcast.day05.demo04.Demo01ArrayParam.printArray;
+import cn.itcast.day05.demo04.Demo01ArrayParam;
 
 /*
 数组元素的反转：
@@ -24,6 +25,8 @@ public class Demo07ArrayReverse {
         }
         System.out.println(Arrays.toString(array));
         printArray(array);
+        Demo01ArrayParam p = new Demo01ArrayParam();
+        p.printArray2(array);
 
     }
 
