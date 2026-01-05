@@ -1,3 +1,5 @@
+package cn.itcast.test;
+
 import java.util.Scanner;
 
 /*
