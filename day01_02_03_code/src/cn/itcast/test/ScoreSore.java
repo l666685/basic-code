@@ -9,20 +9,23 @@ public class ScoreSore {
 
     public static void main(String[] args) throws FileNotFoundException {
 
+        // 读取文件，设置初始变量
         Scanner sc = new Scanner(new File("D:/t.txt"));
         int n = sc.nextInt();
         String[] names = new String[n];
         int[] scores = new int[n];
         String[] namesScores = new String[n];
         String[] temp0 = new String[2];
+        int temp1;
+        String temp2;
 
+        // 将名字和成绩分别录入两个数组
         for (int i = 0; i < n; i++) {
             names[i] = sc.next();
             scores[i] = Integer.parseInt(sc.next());
         }
 
-        int temp1;
-        String temp2;
+        // 对成绩排序的同时排序名字
         for (int i = 0; i < scores.length - 1; i++) {
             for (int g = 0; g < scores.length - 1 - i; g++) {
                 if (scores[g] < scores[g + 1]) {
@@ -36,10 +39,12 @@ public class ScoreSore {
             }
         }
 
+        // 组合名字和成绩
         for (int i = 0; i < n; i++) {
             namesScores[i] = (names[i] + " " + scores[i]);
         }
 
+        // 对成绩相同的人按名字排序
         for (int j = 0; j < n - 1; j++) {
             for (int i = 0; i < n - 1; i++) {
                 if (scores[i] == scores[i + 1]) {
@@ -52,6 +57,7 @@ public class ScoreSore {
             }
         }
 
+        // 打印输出
         for (int i = 0; i < n; i++) {
             System.out.println(namesScores[i]);
         }
