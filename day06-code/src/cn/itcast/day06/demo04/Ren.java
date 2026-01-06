@@ -18,4 +18,8 @@ public class Ren {
         System.out.println(this);
     }
 
+    public Ren() {
+        System.out.println("我是构造方法.txt");
+    }
+
 }
