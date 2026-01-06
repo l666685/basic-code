@@ -5,7 +5,7 @@ package cn.itcast.day06.demo04;
 this.成员变量名
 
 “通过谁调用的方法，谁就是this”
-这句话的具体示例在Demo01Ren.java的8,9行。
+这句话的具体示例在Demo01Ren.java的8~11行。
  */
 public class Ren {
 
@@ -15,6 +15,7 @@ public class Ren {
     // 成员变量name是自己的名字
     public void sayHello(String name) {
         System.out.println(name + "你好，我是" + this.name + "。");
+        System.out.println(this);
     }
 
 }
