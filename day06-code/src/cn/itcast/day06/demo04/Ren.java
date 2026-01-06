@@ -1,6 +1,8 @@
 package cn.itcast.day06.demo04;
 /*
 局部变量和类的成员名称重名的时候采用就近原则，即使用方法内的局部变量
+如若想在这种情况下访问成员变量，格式为：
+this.成员变量名
  */
 public class Ren {
 
