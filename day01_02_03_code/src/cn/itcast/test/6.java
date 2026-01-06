@@ -1,3 +1,5 @@
+package cn.itcast.test;
+
 import java.awt.*;
 import javax.swing.*;
 import java.util.*;

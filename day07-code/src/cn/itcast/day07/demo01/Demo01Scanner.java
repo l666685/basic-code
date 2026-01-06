@@ -16,6 +16,9 @@ import 包名称.类名称;
 
 3. 使用
 对象名.成员方法名()
+
+获取键盘输入的一个int数字：int num = sc.nextInt();
+获取键盘输入的一个字符串：String str = sc.next();
  */
 public class Demo01Scanner {
 
@@ -25,6 +28,15 @@ public class Demo01Scanner {
         //System.in代表从键盘输入
         //其他的写法自己查JDK API去
         Scanner sc = new Scanner(System.in);
+
+        //3. 使用
+        //获取键盘输入的int数字
+        int num = sc.nextInt();
+        System.out.println("你输入的是" + num);
+
+        //获取键盘输入的字符串
+        String str = sc.next();
+        System.out.println("你输入的是" + str);
 
     }
 
