@@ -1,0 +1,15 @@
+14
+Kitty 80
+g 100
+ccc 100
+Alzheimer 90
+f 100
+Joey 92
+Tim 28
+e 100
+hhh 92
+bbb 100
+aaa 0
+iii 90
+zzz 100
+d 100
