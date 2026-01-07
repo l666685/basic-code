@@ -32,17 +32,44 @@ Alzheimer 90
 Kitty 80
 Tim 28
  */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class ScoreSore {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
 
         // 读取文件，设置初始变量
-        Scanner sc = new Scanner(new File("D:/t.txt"));
+        Scanner sc = null;
+        Scanner readFilePath;
+        String filePath;
+
+        try {
+            sc = new Scanner(new File("D:\\Bianchen\\basic-code\\day01_02_03_code\\src\\cn\\itcast\\temp\\t.txt"));
+        } catch (FileNotFoundException e) {
+            try {
+                System.out.println("文件未找到！请自行输入文件完整路径，或是输入exit退出：");
+                readFilePath = new Scanner(System.in);
+                if (!Objects.equals(readFilePath.next(), "exit")) {
+                    /*
+                    括号内我原本想用(readFilePath.next() != "exit")的，结果不符合预期，
+                    但编译器提供了一种写法(如上)，雀食好用。
+                     */
+                    filePath = readFilePath.nextLine();
+                    sc = new Scanner(new File(filePath));
+                } else {
+                    System.exit(0);
+                }
+            } catch (FileNotFoundException ex) {
+                System.out.println("文件仍未找到！");
+                System.exit(404);
+            }
+        }
+
         int n = sc.nextInt();
         String[] names = new String[n];
         int[] scores = new int[n];
@@ -93,6 +120,8 @@ public class ScoreSore {
         for (int i = 0; i < n; i++) {
             System.out.println(namesScores[i]);
         }
+
+        System.exit(0);
 
     }
 
