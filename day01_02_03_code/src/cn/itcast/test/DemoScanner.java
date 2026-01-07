@@ -102,6 +102,6 @@ public class DemoScanner {
                 System.out.println("OK,退出啦");
                 System.exit(1);
             }
-        } while (0 != 9);
+        } while (true);
     }
 }
