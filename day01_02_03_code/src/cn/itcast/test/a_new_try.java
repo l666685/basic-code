@@ -5,15 +5,11 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.Button;
-import java.awt.CardLayout;
 import java.awt.Frame;
 import java.awt.Panel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class a_new_try {
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 5; i--) {
             JFrame e = new JFrame("SB的窗口案例"); // JFrame指一个窗口
             e.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 关闭窗口时退出进程
             e.setSize(400, 300); // 设置窗口大小
@@ -84,12 +80,7 @@ public class a_new_try {
             Button but8 = new Button("Button3");
             Button but9 = new Button("Button4");
             Button but10 = new Button("Button5,but Exit");
-            but10.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent arg0) {
-                    System.exit(0);
-                }
-            });
+            but10.addActionListener(arg0 -> System.exit(0));
 
             but6.setBackground(Color.blue); // 均为设置按钮颜色
             but7.setBackground(Color.yellow);
@@ -134,6 +125,5 @@ public class a_new_try {
             // f.setDefaultCloseOperation(Frame.EXIT_ON_CLOSE);
             f.setVisible(true);
             Thread.sleep(500);
-        }
     }
 }
