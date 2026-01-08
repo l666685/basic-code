@@ -56,12 +56,12 @@ public class ScoreSore {
             try {
                 System.out.println("文件未找到！请自行输入文件完整路径，或是输入exit退出：");
                 readFilePath = new Scanner(System.in);
-                if (!Objects.equals(readFilePath.next(), "exit")) {
+                filePath = readFilePath.nextLine();
+                if (!Objects.equals(filePath, "exit")) {
                     /*
                     括号内我原本想用(readFilePath.next() != "exit")的，结果不符合预期，
                     但编译器提供了一种写法(如上)，雀食好用。
                      */
-                    filePath = readFilePath.nextLine();
                     sc = new Scanner(new File(filePath));
                 } else {
                     System.exit(0);
