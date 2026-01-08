@@ -59,7 +59,7 @@ public class ScoreSore {
                 filePath = readFilePath.nextLine();
                 if (!Objects.equals(filePath, "exit")) {
                     /*
-                    括号内我原本想用(readFilePath.next() != "exit")的，结果不符合预期，
+                    括号内我原本想用(filePath != "exit")的，结果不符合预期，
                     但编译器提供了一种写法(如上)，雀食好用。
                      */
                     sc = new Scanner(new File(filePath));
@@ -90,9 +90,11 @@ public class ScoreSore {
         for (int i = 0; i < scores.length - 1; i++) {
             for (int g = 0; g < scores.length - 1 - i; g++) {
                 if (scores[g] < scores[g + 1]) {
+                    // 成绩
                     temp1 = scores[g];
                     scores[g] = scores[g + 1];
                     scores[g + 1] = temp1;
+                    // 名字
                     temp2 = names[g];
                     names[g] = names[g + 1];
                     names[g + 1] = temp2;
