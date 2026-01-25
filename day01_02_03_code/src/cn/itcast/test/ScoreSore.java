@@ -72,7 +72,8 @@ public class ScoreSore {
             }
         }
 
-        int n = sc.nextInt();
+        int n;
+        n = sc.nextInt();
         String[] names = new String[n];
         int[] scores = new int[n];
         String[] namesScores = new String[n];
