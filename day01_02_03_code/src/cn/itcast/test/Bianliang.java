@@ -1,3 +1,5 @@
+package cn.itcast.test;
+
 public class Bianliang {
     public static void main(String[] args) {
         int SB = 9999999;

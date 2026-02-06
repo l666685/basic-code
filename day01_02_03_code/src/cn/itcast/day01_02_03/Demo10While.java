@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 /*
 while循环有一个标准格式，还有一个特殊格式。
 

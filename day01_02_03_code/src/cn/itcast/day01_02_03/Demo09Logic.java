@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 /*
 与（并且）   &&   比较布尔值，全true才输出true，否则输出false
 或（或者）   ||   至少一个是true就输出true，全F才输出false

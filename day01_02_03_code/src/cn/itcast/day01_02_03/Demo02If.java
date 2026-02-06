@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 // 单if语句
 public class Demo02If {
     public static void main(String[] args) {

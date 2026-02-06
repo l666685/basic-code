@@ -1,3 +1,5 @@
+package cn.itcast.test;
+
 public class e10 {
     public static void main(String[] args){
         int x = 0 ;

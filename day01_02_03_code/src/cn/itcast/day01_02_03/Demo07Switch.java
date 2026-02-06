@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 public class Demo07Switch {
     public static void main(String[] args) {
         int num = 5;

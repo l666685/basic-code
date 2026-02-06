@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 /*
 break关键字的用法有常见的两种：
 

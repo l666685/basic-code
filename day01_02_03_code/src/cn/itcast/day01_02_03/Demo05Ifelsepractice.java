@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 public class Demo05Ifelsepractice {
     public static void main(String[] args) {
         int score = 100;

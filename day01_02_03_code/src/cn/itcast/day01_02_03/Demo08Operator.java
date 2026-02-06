@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 import java.io.PrintStream;
 
 /*

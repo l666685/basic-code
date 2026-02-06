@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 /*
 定义一个方法的格式：
 pulic static void 方法名称() {

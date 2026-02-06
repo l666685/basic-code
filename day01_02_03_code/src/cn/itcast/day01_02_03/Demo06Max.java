@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 public class Demo06Max {
     public static void main(String[] args) {
         int a = 30;

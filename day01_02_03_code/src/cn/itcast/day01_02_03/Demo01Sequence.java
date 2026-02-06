@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 // 顺序结构
 public class Demo01Sequence {
     public static void main(String[] args) {

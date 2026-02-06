@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 public class Demo17LoopHourAndMinute {
     public static void main(String[] args) {
         for (int hour = 0; hour <= 23; hour++) {

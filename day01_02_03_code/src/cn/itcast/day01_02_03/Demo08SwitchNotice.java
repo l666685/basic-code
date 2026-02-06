@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 /*
 switch语句使用的注意事项：
 

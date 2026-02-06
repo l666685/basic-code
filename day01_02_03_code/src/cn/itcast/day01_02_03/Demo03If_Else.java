@@ -1,3 +1,5 @@
+package cn.itcast.day01_02_03;
+
 // 标准的If-else语句
 public class Demo03If_Else {
     public static void main(String[] args) {

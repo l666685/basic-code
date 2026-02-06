@@ -1,3 +1,5 @@
+package cn.itcast.test;
+
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.CardLayout;
