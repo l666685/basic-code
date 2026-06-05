@@ -6,11 +6,16 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class getFile {
+    private String filePath;
+
+    public String getFilePath() {
+        return filePath;
+    }
 
     public Scanner fileContent(String path){
         Scanner Rules;
         Scanner readPathName;
-        String filePath;
+
 
         try {
             Rules = new Scanner(new File(path));
@@ -38,7 +43,7 @@ public class getFile {
     public Scanner fileContent(){
         Scanner Rules;
         Scanner readPathName;
-        String filePath;
+        this.filePath = null;
 
         System.out.println("请输入规则文件路径，或是输入exit退出");
         readPathName = new Scanner(System.in);
