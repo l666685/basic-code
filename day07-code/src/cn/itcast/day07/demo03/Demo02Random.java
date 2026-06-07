@@ -8,7 +8,7 @@ public class Demo02Random {
         Random roll = new Random();
 
         for (int i = 0; i < 100; i++) {
-            System.out.println(i + " " + roll.nextInt(10));
+            System.out.println((i+1) + " " + roll.nextInt(10));
         }
 
     }
