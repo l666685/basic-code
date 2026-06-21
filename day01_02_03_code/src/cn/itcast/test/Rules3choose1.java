@@ -4,8 +4,8 @@ import java.util.*;
 /*
 写完了，记得有时间补一下注释然后用方法优化一下重复的部分。
  */
-import cn.itcast.temp.GetFile;
-import cn.itcast.temp.ScannerProcessing;
+import cn.itcast.depends.GetFile;
+import cn.itcast.depends.ScannerProcessing;
 
 public class Rules3choose1 {
 
@@ -21,7 +21,7 @@ public class Rules3choose1 {
 
         // 以下为寻找规则文件
         GetFile g = new GetFile();
-        String path = "D:\\BianChen\\basic-code(new)\\day01_02_03_code\\src\\cn\\itcast\\temp\\Rules.txt";
+        String path = "D:\\BianChen\\basic-code(new)\\temp\\Rules.txt";
         Scanner file = g.fileContent(path);
 
         //以下为功能实现

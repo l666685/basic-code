@@ -51,7 +51,7 @@ public class ScoreSore {
         // 我靠，我发现File类如果不手动设置参数的话是忽略大小写的
         // 我真牛逼QWQ
         try {
-            sc = new Scanner(new File("D:\\BianChen\\basic-code\\day01_02_03_code\\src\\cn\\itcast\\temp\\Score.txt"));
+            sc = new Scanner(new File("D:\\BianChen\\basic-code(new)\\temp\\Score.txt"));
         } catch (FileNotFoundException e) {
             try {
                 System.out.println("文件未找到！请自行输入文件完整路径，或是输入exit退出：");

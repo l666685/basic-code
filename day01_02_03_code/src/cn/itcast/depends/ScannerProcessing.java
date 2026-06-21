@@ -1,4 +1,4 @@
-package cn.itcast.temp;
+package cn.itcast.depends;
 
 
 import java.util.ArrayList;
