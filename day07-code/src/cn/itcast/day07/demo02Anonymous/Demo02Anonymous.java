@@ -1,4 +1,4 @@
-package cn.itcast.day07.demo02;
+package cn.itcast.day07.demo02Anonymous;
 
 import java.util.Scanner;
 

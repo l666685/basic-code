@@ -1,4 +1,4 @@
-package cn.itcast.day07.demo02;
+package cn.itcast.day07.demo02Anonymous;
 /*
 创建对象的标准格式：
 类名称 对象名 = new 类名称();

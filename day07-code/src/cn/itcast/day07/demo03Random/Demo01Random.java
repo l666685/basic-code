@@ -1,4 +1,4 @@
-package cn.itcast.day07.demo03;
+package cn.itcast.day07.demo03Random;
 
 import java.util.Random;
 

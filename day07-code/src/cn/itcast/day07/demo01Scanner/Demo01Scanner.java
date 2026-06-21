@@ -1,4 +1,4 @@
-package cn.itcast.day07.demo01;
+package cn.itcast.day07.demo01Scanner;
 
 import java.util.Scanner; //1. 导包
 
