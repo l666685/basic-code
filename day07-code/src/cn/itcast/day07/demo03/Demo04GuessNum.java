@@ -13,7 +13,9 @@ public class Demo04GuessNum {
         Random roll = new Random();
         int num= roll.nextInt(100)+1;
         boolean onOff = true;
+        int runTimes = 0;
         while (onOff) {
+            runTimes++;
             System.out.println("多少？");
             int input = put.nextInt();
             if (input - num > 0) {
@@ -29,6 +31,7 @@ public class Demo04GuessNum {
             }
         }
         System.out.println("其实是答对了");
+        System.out.println("另外，你是在第"+runTimes+"次猜中的");
     }
 
 }
