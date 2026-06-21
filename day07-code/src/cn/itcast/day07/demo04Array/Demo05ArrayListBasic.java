@@ -34,7 +34,6 @@ public class Demo05ArrayListBasic {
         System.out.println(listB);
 
         System.out.println(listB.get(1));
-
     }
 
 }
