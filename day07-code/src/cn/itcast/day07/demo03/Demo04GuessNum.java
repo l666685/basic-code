@@ -20,14 +20,14 @@ public class Demo04GuessNum {
             int input = put.nextInt();
             if (input - num > 0) {
                 System.out.println("大了");
+            } else if (input - num < 0) {
+                System.out.println("小了");
             } else if (input - num == 0) {
                 System.out.println("恭喜你，被我恭喜了");
                 for (int i = 0; i < 5; i++) {
                     System.out.println();
                 }
                 onOff = false;
-            } else if (input - num < 0) {
-                System.out.println("小了");
             }
         }
         System.out.println("其实是答对了");
