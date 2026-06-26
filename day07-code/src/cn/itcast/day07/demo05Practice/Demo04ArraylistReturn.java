@@ -24,8 +24,8 @@ public class Demo04ArraylistReturn {
 
         ArrayList<Integer> OuShu = method.get2468(list);
 
-        System.out.println(OuShu);
         System.out.println("有 "+OuShu.size()+" 个偶数");
+        System.out.println(OuShu);
     }
 
 }
